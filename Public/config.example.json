@@ -1,0 +1,83 @@
+{
+  "global": {
+    "interval": 0,
+    "gridSize": 8,
+    "gap": 4,
+    "sources": {
+      "unsplash": "https://source.unsplash.com/random/{width}x{height}.{spam}",
+      "unsplashProxy": "http://serverIP:8888/random/{width}x{height}.{spam}",
+      "xjh": "https://img.xjh.me/random_img.php?return=302&type=bg&spam={spam}",
+      "ixwgq": "https://api.ixiaowai.cn/gqapi/gqapi.php?spam={spam}"
+    }
+  },
+  "tools": {
+    "NumClock": {
+      "title": "数字时钟",
+      "seconds": false,
+      "ink": true
+    },
+    "VerticalClock": {
+      "ink": false
+    },
+    "RandomPic": {
+      "title": "随机图片",
+      "type": "xjh",
+      "interval": 9e5
+    }
+  },
+  "panels": {
+    "index": {
+      "backgroundColor": "#282c34",
+      "navWidth": "20",
+      "navHeight": "5"
+    },
+    "desktop": {
+      "title": "桌面",
+      "backgroundColor": "#282c34",
+      "tools": [
+        {
+
+          "pos": {
+            "left": "1",
+            "top": "1",
+            "right": "36",
+            "bottom": "36"
+          },
+          "beBackground": true,
+          "canBeFullscreen": true,
+          "linkToSelf": false,
+          "linkToUrl": "https:\/\/baidu.com\/"
+
+        }
+      ]
+    },
+    "Demo": {
+      "title": "面板演示",
+      "background": "#282c34",
+      "linkToSelf": false,
+      "cardRadius": 12,
+      "tools": [
+        {
+          "name": "RandomPic",
+          "beBackground": true,
+          "pos": {
+            "left": "1",
+            "top": "1",
+            "right": "1",
+            "bottom": "1"
+          }
+        },
+        {
+          "name": "VerticalClock",
+          "cardBackground": "rgba(255, 255, 255, .75)",
+          "pos": {
+            "left": "1",
+            "top": "1",
+            "right": "24",
+            "bottom": "32"
+          }
+        }
+      ]
+    }
+  }
+}

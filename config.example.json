@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/unsplash",
+    "target": "https://source.unsplash.com",
+    "pathRewrite": {
+      "/unsplash": "/"
+    }
+  },
+  {
+    "path": "/slowly",
+    "target": "https://api.getslowly.com",
+    "pathRewrite": {
+      "/slowly": "/"
+    }
+  },
+  {
+    "path": "/afdian",
+    "target": "https://afdian.net",
+    "pathRewrite": {
+      "/afdian": "/"
+    }
+  },
+  {
+    "path": "/bilibili",
+    "target": "http://api.bilibili.com",
+    "pathRewrite": {
+      "/bilibili": "/"
+    },
+    "headers": {
+      "cookie": "此网站需要设置 cookie 来进行身份认证"
+    }
+  },
+  {
+    "path": "/meta",
+    "target": "https://meta.appinn.net",
+    "pathRewrite": {
+      "/meta": "/"
+    },
+    "headers": {
+      "cookie": "此网站需要设置 cookie 来进行身份认证"
+    }
+  },
+  {
+    "path": "/rsshub",
+    "target": "https://rsshub.app",
+    "pathRewrite": {
+      "/rsshub": "/"
+    }
+  }
+]
