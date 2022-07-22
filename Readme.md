@@ -41,7 +41,3 @@
 ![爱发电](./images/afdian-256.png)
 
 [老鼠爱发电](https://afdian.net/@daomishu)
-
-## 文档
-
-* [安装](./docs/install.md)
